@@ -1,0 +1,11 @@
+[package]
+name = "monads_ai"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ctrlc = "3.4"
+
+[[bin]]
+name = "monad"     # executable that generates.
+path = "src/main.rs"

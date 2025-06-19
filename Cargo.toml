@@ -1,5 +1,5 @@
 [package]
-name = "monads_ai"
+name = "monads-ai"
 version = "0.1.0"
 edition = "2024"
 description = "Experimental monadic architecture runner for autonomous AI."

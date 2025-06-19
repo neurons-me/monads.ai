@@ -2,10 +2,14 @@
 name = "monads_ai"
 version = "0.1.0"
 edition = "2024"
-
-[dependencies]
-ctrlc = "3.4"
+description = "Experimental monadic architecture runner for autonomous AI."
+license = "MIT"
+readme = "README.md"          # Opcional pero recomendable
+repository = "https://github.com/neurons-me/monads.ai"  # Ajusta si aplica
+categories = ["command-line-utilities"]  # Opcional
+keywords = ["ai", "monad", "loop", "autonomous"]        # Opcional
 
 [[bin]]
 name = "monad"     # executable that generates.
 path = "src/main.rs"
+
